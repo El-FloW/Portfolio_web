@@ -1,0 +1,62 @@
+.section-parcours{
+    background: url("https://i.pinimg.com/736x/e6/5c/f3/e65cf3f3551b33c9b3d157184df13caa.jpg") no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.timeline, .timeline-date{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.timeline-separator{
+    border-top: 2px solid violet;
+    border-bottom: 2px solid violet;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.timeline > div{
+    text-align: center;
+}
+.timeline > div>p:nth-child(1), .timeline>p{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.timeline > div>p:nth-child(2){
+    font-size: 1vw;
+}
+
+@media only screen and (max-width: 600px){
+
+    .section-parcours{
+        display: flex;
+        justify-content: center;
+    }
+
+    .timeline,.timeline-date{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vw;
+    }
+
+    .timeline-separator{
+        border: 0px;
+        width: 0%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .timeline > div>p:nth-child(1), .timeline>p, .timeline-date p{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    .timeline > div>p:nth-child(2){
+        font-size: 2.5vw;
+    }
+}

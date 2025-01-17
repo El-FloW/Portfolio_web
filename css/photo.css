@@ -1,0 +1,26 @@
+.section-photo{
+    background: url("../media/liège.jpg") no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    
+}
+
+
+.Photo{
+    width: fit-content;
+}
+
+.Photo img{
+    width: 35vw;
+    border: solid 2vw white;
+    border-bottom: solid 8vw white;
+}
+
+.Photo p{
+    position: relative;
+    color: black;
+    bottom: 50px;
+    text-align: center;
+}
