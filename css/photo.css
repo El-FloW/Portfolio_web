@@ -1,15 +1,50 @@
 .section-photo{
+    position: relative;
     background: url("../media/liège.jpg") no-repeat center center;
     background-size:cover;
     background-attachment: fixed;
-    padding-top: 5vw;
+    /* padding-top: 5vw; */
     padding-bottom: 5vw;
+    overflow: hidden;
     
 }
 
+.guirlandes{
+    background: url("../media/Guirlandes.png") repeat center center;
+    background-size: cover;
+    position: absolute;
+    /* transform: translateY(-1500); */
+    width: 100%;
+    height: 100%;
+    filter: blur(0.25vw);
+    z-index: 100;
+    opacity: 1;
+    /* animation: scrollBackground 10s linear infinite; */
+}
 
-.Photo{
+/* Définir l'animation */
+@keyframes scrollBackground {
+    from {
+        background-position-y: 0;
+    }
+
+    to {
+        background-position-y: 100%;
+    }
+}
+
+.Photo:first-child{
+    margin-top: 15vw;
+}
+
+.Photo:nth-last-of-type(odd){
     width: fit-content;
+    margin-left: 10%;
+}
+
+.Photo:nth-last-of-type(even) {
+    width: fit-content;
+    margin-left: 55%;
 }
 
 .Photo img{
