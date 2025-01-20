@@ -82,6 +82,19 @@ h1{
     animation: breathing 8s ease-in-out infinite;;
 }
 
+h2{
+    font-family: "Montserrat", serif;
+    font-style: normal;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+
+    animation: breathing 8s ease-in-out infinite;;
+}
+
 b,a{
     font-weight: 700;
     color: blueviolet;

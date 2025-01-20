@@ -1,0 +1,22 @@
+.section-info{
+    position: relative;
+    background: url("../media/Montagne.jpg") no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* margin-bottom: 5%; */
+    
+}
+
+.section-info .paragraph{
+    background-color: rgba(0, 0, 0, 0.568);
+    padding: 2%;
+    border-radius: 0px;
+    width: 35%;
+}
