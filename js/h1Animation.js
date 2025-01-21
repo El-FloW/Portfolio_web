@@ -40,8 +40,6 @@ function animatePhoto() {
   if(photo_final == ""){
     photo_final = "\u00A0";
   }
-
-  console.log(photostep);
   
   H1Photo.textContent = photo_final; // Mettre à jour le texte
 }
