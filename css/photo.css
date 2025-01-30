@@ -1,4 +1,4 @@
-.section-photo{
+#section-photo{
     position: relative;
     background: url("../media/liège.jpg") no-repeat center center;
     background-size:cover;

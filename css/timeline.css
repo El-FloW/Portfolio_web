@@ -1,4 +1,4 @@
-.section-parcours{
+#section-parcours{
     background: url("../media/bourgetbelvedere.JPG") no-repeat center center;
     background-size:cover;
     background-attachment: fixed;
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 600px){
 
-    .section-parcours{
+    #section-parcours{
         display: flex;
         justify-content: center;
     }

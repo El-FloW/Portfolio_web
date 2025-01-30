@@ -1,0 +1,16 @@
+footer{
+    padding: 2vw;
+    color: aliceblue;
+}
+
+.footercontact{
+    position: relative;
+    filter: invert(100%);
+    
+    width: fit-content;
+}
+
+.footercontact img{
+    width: 3vw;
+    margin-left: 2.5vw;
+}

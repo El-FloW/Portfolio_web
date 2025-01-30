@@ -2,35 +2,14 @@
 <html lang="fr">
 <head>
 
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": "Florian Martinez",
-          "url": "https://www.florian-martinez.fr",
-          "sameAs": [
-            "https://www.instagram.com/flow.martz/",
-            "https://www.linkedin.com/in/florian-martinez-584277233/"
-          ],
-          "jobTitle": "Étudiant en BUT MMI",
-          "alumniOf": {
-            "@type": "EducationalOccupationalCredential",
-            "educationalCredentialAwarded": "BUT MMI",
-            "school": {
-              "@type": "CollegeOrUniversity",
-              "name": "Université Savoie Mont Blanc",
-              "department": "IUT"
-            }
-          }
-        }
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez le portfolio de Florian Martinez, étudiant en BUT MMI passionné par le développement, l'audiovisuel et la création numérique. Parcourez ses projets vidéo, photos et son parcours académique. Suivez ses passions pour l'automobile, les jeux vidéo et bien plus !">
     <title>Portfolio de Florian Martinez | Développement & Audiovisuel</title>
     <meta name="keywords" content="Florian Martinez, MMI, BUT MMI, Métier Multimédia & Internet, Chambery, 73000, Bourget du lac, portfolio, développeur, audiovisuel, BUT MMI, motion design, développement web, jeux vidéo, automobile, interview, photographie, création média, animation, design graphique, réseaux sociaux, projet étudiant">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/backtoTop.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/info.css">
     <link rel="stylesheet" href="./css/timeline.css">
@@ -49,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <button id="backToTop">↑ Haut</button>
     <div class="container">
         <div class="background"></div>
         <div class="foreground"></div>
@@ -59,17 +39,24 @@
     </div>
 
     <div class="contact">
-        <a href="https://www.instagram.com/flow.martz/"><img src="./media/Social/insta.svg" alt="Instagram"></a>
+        <!-- <a href="https://www.instagram.com/flow.martz/"><img src="./media/Social/insta.svg" alt="Instagram"></a> -->
         <a href="https://www.linkedin.com/in/florian-martinez-584277233/"><img src="./media/Social/linkedin.svg" alt="LinkedIn"></a>
         <a href="https://www.youtube.com/@flowdouze"><img src="./media/Social/youtube.svg" alt="Youtube"></a>
-        <a href="https://github.com/El-FloW"><img src="./media/Social/github.svg" alt="Github"></a>
+        <!-- <a href="https://github.com/El-FloW"><img src="./media/Social/github.svg" alt="Github"></a> -->
     </div>
 
     <div class="separator"></div>
 
+    <div id="sommaire">
+        <a href="#h1profil">Profil</a>
+        <a href="#h1loading">Parcours</a>
+        <a href="#h1video">Videos</a>
+        <a href="#h1photos">Photos</a>
+    </div>
 
-    <h1>Florian MARTINEZ</h1>
-    <section class="section-info">
+
+    <h1 id="h1profil">Florian MARTINEZ</h1>
+    <section id="section-info">
         <img src="./media/pp.jpg" alt="Photo de profil" width="200px" height="200px">
         <div class="paragraph">
             <p>Je m'appelle Florian Martinez, ancien étudiant en BUT informatique, actuellement en BUT MMI <br>
@@ -85,7 +72,7 @@
         <h1 id="h1loading">...</h1>
     </div>
 
-    <section class="section-parcours">
+    <section id="section-parcours">
 
         <div class="timeline">
             <p>BAC STI2D</p>
@@ -108,7 +95,9 @@
 
     <h1 id="h1video">Projets Vidéo|</h1>
 
-    <section class="section-video">
+    <section id="section-video">
+
+        <h2>Réalisé en MMI</h2>
 
         <div class="video_div">
             <div class="videowindow">
@@ -116,7 +105,7 @@
                     <p>Motion_Design.mp4</p>
                     <p>X</p>
                 </div>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ohd-ouZ1hw0?si=xd2ckVSpNP_RjrIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2traoXSDFnQ?si=Qen2LiJBk-HSh9FL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="paragraph">
                 <p>
@@ -156,6 +145,100 @@
                 </p>
             </div>
         </div>
+    
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>Mezzalab.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TLTPYvsSXJg?si=8Oxw-U5_rEvCSpxe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Ceci est une petite animation dans le cadre de la création d'une identité visuelle pour une salle de l'IUT. Nous avons créé une direction artistique et, dans ce cadre, j'ai réalisé une animation représentant l'ambiance du lieu.
+                </p>
+            </div>
+        </div>
+
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>24hMotion.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/piejnbswwXA?si=0P08BgxlIzXuw9JA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Ce motion design a été réalisé en 24 heures (environ 9 à 10 heures de travail) dans le cadre de la formation MMI à l’IUT de l’Université Savoie Mont Blanc.</br>L’exercice consistait à concevoir un visuel animé original à partir d’une chanson générée avec Suno AI.
+                </p>
+            </div>
+        </div>
+
+        <h2>Animation 3D</h2>
+
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>casinono.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/nJDNn6-EtIo?si=mcqh1eQ-GHIq7yOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Animation en boucle simple d'une machine à sous dans un style cartoon que j'ai réalisée pour le projet d'un ami lors de mon BUT informatique.
+                </p>
+            </div>
+        </div>
+
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>halloween.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/w0fuiddkB-U?si=h7fGMwsHgdiKtFL7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Ceci est une petite animation 3D réalisé pour halloween dans mon temps libre.
+                </p>
+            </div>
+        </div>
+
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>halloween.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/JkeEDkuIfzg?si=TE8fwegQohsYMUlV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    Une autre animation plus ancienne pour halloween, j'avais experimenté la simulation de fluide.
+                </p>
+            </div>
+        </div>
+
+        <div class="video_div">
+            <div class="videowindow">
+                <div class="window_header">
+                    <p>rooftop.mp4</p>
+                    <p>X</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ezf-90LvJcM?si=23vw2GWmm5b_rs1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="paragraph">
+                <p>
+                    J'ai voulu créer une ambiance "Post-apo" dans un style low poly
+                </p>
+            </div>
+        </div>
+
+        <h2>Associations</h2>
 
         <div class="video_div">
             <div class="videowindow">
@@ -172,28 +255,13 @@
             </div>
         </div>
     
-        <div class="video_div">
-            <div class="videowindow">
-                <div class="window_header">
-                    <p>Mezzalab.mp4</p>
-                    <p>X</p>
-                </div>
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TLTPYvsSXJg?si=8Oxw-U5_rEvCSpxe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
-            </div>
-            <div class="paragraph">
-                <p>
-                    Ceci est une petite animation dans le cadre de la création d'une identité visuelle pour une salle de l'IUT. Nous avons créé une direction artistique et, dans ce cadre, j'ai réalisé une animation représentant l'ambiance du lieu.
-                </p>
-            </div>
-        </div>
-    
     </section>
 
     <div class="separator"></div>
 
     <h1 id="h1photos">Photos</h1>
 
-    <section class="section-photo">
+    <section id="section-photo">
         <div class="guirlandes">
         </div>
 
@@ -230,8 +298,18 @@
 
 
 </body>
+<footer>
+    <div class="footercontact">
+        <!-- <a href="https://www.instagram.com/flow.martz/"><img src="./media/Social/insta.svg" alt="Instagram"></a> -->
+        <a href="https://www.linkedin.com/in/florian-martinez-584277233/"><img src="./media/Social/linkedin.svg" alt="LinkedIn"></a>
+        <a href="https://www.youtube.com/@flowdouze"><img src="./media/Social/youtube.svg" alt="Youtube"></a>
+        <!-- <a href="https://github.com/El-FloW"><img src="./media/Social/github.svg" alt="Github"></a> -->
+    </div>
+</footer>
 </html>
 
+
+<script src="./js/buttonTop.js"></script>
 <script type="application/ld+json">
     {
       "@context": "https://schema.org",

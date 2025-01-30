@@ -1,4 +1,4 @@
-.section-info{
+#section-info{
     position: relative;
     background: url("../media/Montagne.jpg") no-repeat center center;
     background-size:cover;
@@ -14,7 +14,7 @@
     
 }
 
-.section-info .paragraph{
+#section-info .paragraph{
     background-color: rgba(0, 0, 0, 0.568);
     padding: 2%;
     border-radius: 0px;

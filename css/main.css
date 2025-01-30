@@ -5,9 +5,18 @@ body, html {
     height: 200%;
     font-family: Arial, sans-serif;
     overflow-x: initial !important;
-    background-color: black;
-    
+    background: url('../media/img-noise-500x500.png') repeat center center;
 }
+
+#sommaire{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20vw;
+}
+#sommaire a{
+    text-decoration: underline;
+}
+
 
 .container {
     position: relative;
@@ -40,6 +49,7 @@ body, html {
     z-index: 3;
 }
 
+
 /* Titres */
 .title {
     position: absolute;
@@ -67,7 +77,7 @@ body, html {
 
 h1{
     /* margin-top: 35%; */
-    margin-bottom: 5%;
+    margin-bottom: 15vw;
     color: white;
     text-align: center;
     font-size: 200%;
@@ -113,7 +123,7 @@ p{
 
 .separator{
     /* background-color: red; */
-    padding-top: 30vw;
+    padding-top: 15vw;
 }
 
 .contact{
