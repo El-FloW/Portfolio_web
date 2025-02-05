@@ -105,7 +105,7 @@ h2{
     animation: breathing 8s ease-in-out infinite;;
 }
 
-b,a{
+b,a,strong{
     font-weight: 700;
     color: blueviolet;
     text-decoration: none;
