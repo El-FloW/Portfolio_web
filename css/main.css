@@ -160,6 +160,10 @@ p{
     .subtitle {
         bottom: 250px;
     }
+
+    .contact{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 500px){

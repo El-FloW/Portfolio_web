@@ -2,15 +2,15 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: rgb(198, 0, 229);
     color: white;
     border: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
     z-index: 999;
 }
 #backToTop:hover {
-    background-color: #0056b3;
+    background-color: rgb(128, 0, 148);
 }

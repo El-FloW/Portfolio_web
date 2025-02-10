@@ -14,3 +14,21 @@ footer{
     width: 3vw;
     margin-left: 2.5vw;
 }
+
+@media only screen and (max-width: 800px){
+    footer{
+        padding: 2vw;
+        
+    }
+    .footercontact{
+        filter: invert(100%);
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .footercontact img{
+        width: 15vw;
+        margin-left: 2.5vw;
+    }
+}
