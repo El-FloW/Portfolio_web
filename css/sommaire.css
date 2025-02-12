@@ -11,7 +11,7 @@
     border-radius: 1px;
     z-index: 1000;
     background-color: rgba(24, 24, 24, 0.1);
-    transition: background-color 1s ease, transform 0.5s ease; /* Ajout de la transition */
+    transition: background-color 0.4s ease, transform 0.5s ease; /* Ajout de la transition */
     transform: translateY(-100%);
 }
 #sommaire a{
@@ -20,7 +20,7 @@
     background-color: rgba(198, 0, 229,0.2);
     padding: 1.5%;
     border-radius: 1px;
-    transition: color 1s ease, background-color 1s ease; /* Ajout de la transition */
+    transition: color 0.4s ease, background-color 0.4s ease; /* Ajout de la transition */
 }
 
 #sommaire:hover{
@@ -31,6 +31,12 @@
         background-color: rgba(198, 0, 229,0.7);
     }
 }
+
+#sommaire a:hover {
+    background-color: rgb(128, 0, 148);
+    transition: color 0.01s ease, background-color 0.01s ease; /* Ajout de la transition */
+}
+
 
 @media only screen and (max-width: 800px){
     #sommaire{
