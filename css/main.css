@@ -8,15 +8,6 @@ body, html {
     background: url('../media/img-noise-500x500.png') repeat center center;
 }
 
-#sommaire{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20vw;
-}
-#sommaire a{
-    text-decoration: underline;
-}
-
 
 .container {
     position: relative;
