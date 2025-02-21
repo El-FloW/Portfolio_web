@@ -117,13 +117,13 @@ video {
   }
 
   .videowindow {
-    width: 75%;
+    width: fit-content;
   }
 
   .video_div iframe,
   .video_div video {
-    width: 100%;
-    height: 50vw;
+    width: fit-content;
+    height: 70vw;
     margin-bottom: 5%;
   }
 
