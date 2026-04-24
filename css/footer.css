@@ -5,9 +5,17 @@ footer{
 
 .footercontact{
     position: relative;
+    display: flex;
+    align-items: center;
     filter: invert(100%);
     
     width: fit-content;
+}
+
+.footercontact p {
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
 }
 
 .footercontact img{

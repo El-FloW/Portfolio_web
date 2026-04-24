@@ -33,16 +33,40 @@ function animateVideo() {
   h1Video.textContent = h1vid; // Mettre à jour le texte
 }
 
+
 function animatePhoto() {
-  // Calculer le nombre de points
-  photostep = (photostep + 1) % 15; // Boucle entre 0, 1, 2, 3
-  let photo_final = h1photo.slice(0, photostep);
-  if(photo_final == ""){
-    photo_final = "\u00A0";
-  }
-  
-  H1Photo.textContent = photo_final; // Mettre à jour le texte
+  const frames = [
+    // Repos — texte normal
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+    // Montée du flash
+    { text: "Photos", blur: 1,   brightness: 1.5,  opacity: 1    },
+    { text: "Photos", blur: 3,   brightness: 2.5,  opacity: 1    },
+    { text: "Photos", blur: 6,   brightness: 4,    opacity: 1    },
+    // Pic du flash
+    { text: "Photos", blur: 10,  brightness: 8,    opacity: 1    },
+    // Descente (afterglow)
+    { text: "Photos", blur: 6,   brightness: 3,    opacity: 1    },
+    { text: "Photos", blur: 3,   brightness: 1.8,  opacity: 1    },
+    { text: "Photos", blur: 1,   brightness: 1.2,  opacity: 1    },
+    { text: "Photos", blur: 0,   brightness: 1,    opacity: 1    },
+  ];
+
+  const frame = frames[photostep];
+  H1Photo.textContent = frame.text;
+  H1Photo.style.filter = `blur(${frame.blur}px) brightness(${frame.brightness})`;
+  H1Photo.style.transition = "filter 80ms ease-out";
+
+  photostep = (photostep + 1) % frames.length;
 }
+
+setInterval(animatePhoto, 150);
 
 // Lancer l'animation toutes les 500 ms
 setInterval(animateDots, 500);
