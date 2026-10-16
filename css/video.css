@@ -1,10 +1,12 @@
 #section-video {
-  background: url("../media/chat.jpg") no-repeat center center;
-  background-size: cover;
+  background:
+    radial-gradient(ellipse at 20% 20%, rgba(88, 28, 135, 0.45) 0%, transparent 55%),
+    radial-gradient(ellipse at 80% 75%, rgba(59, 7, 100, 0.50) 0%, transparent 60%),
+    radial-gradient(circle at 50% 50%, rgba(46, 16, 101, 0.25) 0%, transparent 70%),
+    #050308;
   background-attachment: fixed;
   padding-top: 5vw;
   padding-bottom: 5vw;
-
 }
 
 #section-video .paragraph {
