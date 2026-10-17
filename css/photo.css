@@ -33,16 +33,16 @@
     }
 }
 
-.Photo:first-child{
+.Photo:first-child, .Affiche:first-child{
     margin-top: 15vw;
 }
 
-.Photo:nth-last-of-type(odd){
+.Photo:nth-last-of-type(odd), .Affiche:nth-last-of-type(odd){
     width: fit-content;
     margin-left: 10%;
 }
 
-.Photo:nth-last-of-type(even) {
+.Photo:nth-last-of-type(even), .Affiche:nth-last-of-type(even) {
     width: fit-content;
     margin-left: 55%;
 }
@@ -72,21 +72,21 @@
         display: none;
     }
 
-    .Photo{
+    .Photo, .Affiche{
         margin-top: 5vw;
     }
 
-    .Photo:nth-last-of-type(odd){
+    .Photo:nth-last-of-type(odd), .Affiche:nth-last-of-type(odd){
         width: fit-content;
         margin-left: 0%;
     }
     
-    .Photo:nth-last-of-type(even) {
+    .Photo:nth-last-of-type(even), .Affiche:nth-last-of-type(even) {
         width: fit-content;
         margin-left: 0%;
     }
 
-    .Photo img{
+    .Photo img, .Affiche img{
         width: 50vw;
         border: solid 2vw white;
         border-bottom: solid 8vw white;
@@ -104,21 +104,21 @@
         display: none;
     }
 
-    .Photo{
+    .Photo, .Affiche{
         margin-top: 5vw;
     }
 
-    .Photo:nth-last-of-type(odd){
+    .Photo:nth-last-of-type(odd), .Affiche:nth-last-of-type(odd){
         width: fit-content;
         margin-left: 0%;
     }
     
-    .Photo:nth-last-of-type(even) {
+    .Photo:nth-last-of-type(even),.Affiche:nth-last-of-type(even) {
         width: fit-content;
         margin-left: 0%;
     }
 
-    .Photo img{
+    .Photo img, .Affiche img{
         width: 60vw;
         border: solid 2vw white;
         border-bottom: solid 15vw white;

@@ -8,3 +8,14 @@ photos.forEach(photo => {
   // Appliquer la transformation CSS
   photo.style.transform = `rotate(${randomRotation}deg)`;
 });
+
+// Récupérer tous les éléments avec la classe "Photo"
+const affiche = document.querySelectorAll('.Affiche');
+
+// Ajouter une rotation aléatoire à chaque élément
+affiche.forEach(affiche => {
+  // Générer une rotation aléatoire entre -10 et 10 degrés
+  const randomRotation = Math.random() * 20 - 10; // (Math.random() * (max - min)) + min
+  // Appliquer la transformation CSS
+  affiche.style.transform = `rotate(${randomRotation}deg)`;
+});
